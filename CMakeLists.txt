@@ -43,9 +43,6 @@ target_link_libraries(ProjectName ProjectNameLib)
 
 set(TEST_SOURCES
 	tests/test.cc
-	tests/utils/dice_roller_test.cc
-	tests/characters/investigator_test.cc
-	tests/characters/factory_test.cc
 )
 
 add_executable(TestRunner ${TEST_SOURCES})
